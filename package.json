@@ -14,7 +14,7 @@
   "author": "Albert Einstein",
   "license": "ISC",
   "lint-staged": {
-    "src/**/*.ts":"yarn prettier:check"
+    "src/**/*.ts": "yarn lint:check"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",

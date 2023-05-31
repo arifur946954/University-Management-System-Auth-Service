@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint-prettier": "yarn lint:check && yarn prettier:check",
-    "lint:fix": "lint -- --fix"
+    "lint:fix": "eslint . --fix",
+    "prettier:fix": "prettier --write ."
   },
   "author": "Albert Einstein",
   "license": "ISC",
